@@ -1,0 +1,52 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.lead {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.card-header .card-text,
+.card-body .card-title,
+.card-body .card-text {
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.card-body .card-title {
+  font-size: 20px;
+  line-height: 23px;
+}
+
+.footer {
+  display: flex;
+  justify-content: left;
+  text-align: left;
+  background-color: #6c757d;
+}
+
+.footer-text {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  padding-top: 16px;
+}
+
+@media (max-width: 320px) {
+  .display-3 {
+    font-size: 48px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .lead {
+    padding: 0 529px 0 0;
+  }
+}
